@@ -13,9 +13,9 @@ class pip:
         returnable.stdout = stdout
         returnable.stderr = stderr
         return returnable
-    def telepites(self, package):
+    def install(self, package):
         returnable = self.runCommand('install', package)
         return returnable
-    def eltavolitas(self, package):
+    def uninstall(self, package):
         returnable = self.runCommand('uninstall', package)
         return returnable
