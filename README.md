@@ -31,7 +31,7 @@ from pip-module import pip
 pip().install("packageName") # install the package with the name `packageName` 
 pip().uninstall("packageName") # uninstall the package with the name `packageName`
 
-pip().runCommand("command", "packageName") # run the command `command` with the name `packageName`
+pip().runCommand("command", "packageName") # run the command `command`, with the name `packageName`
 
 # more functions coming soon
 ```
